@@ -41,7 +41,33 @@ CMD ["npm", "run", "dev"]
 ------------------------------------------------
 # setting up the Docker file 
 ------------------------------------------------
- 
+ version: '3.8'
+
+services:
+ web:
+  build: .
+  ports:
+   - "5173:5173"
+  volumes:
+   - .:/app 
+   - /app/node-modules
+  environment:
+   -CHOKIDAR_USEPOLLING=true
+----------------------------------------
+# Building and running the docker container
+-----------------------------------
+
+
+ ---------------------------------------
 
 --------------------------------------
 # firstly  I am simply  building the Login / Sign up page 
+
+------------------------------------------------------
+# npm package installed 
+ react-router-dom
+ outlet
+ @headlessui/react
+ react-icons
+
+ -----------------------
