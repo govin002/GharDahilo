@@ -1,5 +1,5 @@
-import Topnav from "./Topnav"
-import Secondnav from "./Secondnav"
+import Topnav from "./Topnav";
+import Secondnav from "./Secondnav";
 
 function Home() {
   return (
