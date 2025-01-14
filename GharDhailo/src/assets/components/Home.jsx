@@ -1,5 +1,6 @@
 import Topnav from "./Topnav";
 import Secondnav from "./secondnav";
+import Silder from "./silder";
 
 function Home() {
   return (
@@ -7,6 +8,7 @@ function Home() {
   <div>
   <Topnav/>
   <Secondnav/>
+  <Silder/>
   </div>
   
   

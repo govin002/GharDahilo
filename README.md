@@ -69,5 +69,7 @@ services:
  outlet
  @headlessui/react
  react-icons
+ react-slick slick-carousel
+
 
  -----------------------
